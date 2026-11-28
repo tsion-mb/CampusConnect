@@ -1,3 +1,4 @@
+
 package ui;
 
 import javax.swing.*;
@@ -79,11 +80,9 @@ public class AdminPanel extends JPanel {
         buttonPanel.add(clearButton);
 
         add(buttonPanel, BorderLayout.SOUTH);
-    }
 
-    /**
-     * Temporary main method for testing the AdminPanel independently.
-     */
+
+    }
     public static void main(String[] args) {
 
         JFrame frame = new JFrame("CampusConnect - Admin Test");
@@ -95,20 +94,6 @@ public class AdminPanel extends JPanel {
         frame.add(new AdminPanel());
 
         frame.setVisible(true);
-    }
-
-
-    public class Main {
-
-        public static void main(String[] args) {
-
-            MainFrame frame = new MainFrame();
-            frame.add(new ChatPanel());
-
-            frame.setVisible(true);
-        }
-
-
     }
 }
 
